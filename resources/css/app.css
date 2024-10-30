@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    padding: 0 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.google-button {
+    background-color: #db4437; /* Google red */
+}
+
+.google-button:hover {
+    background-color: #c13527; /* Darker red */
+    transform: scale(1.05);
+}
+
+.facebook-button {
+    background-color: #4267b2; /* Facebook blue */
+}
+
+.facebook-button:hover {
+    background-color: #365899; /* Darker blue */
+    transform: scale(1.05);
+}
+
+.github-button {
+    background-color: #333; /* GitHub gray */
+}
+
+.github-button:hover {
+    background-color: #444; /* Darker gray */
+    transform: scale(1.05);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
